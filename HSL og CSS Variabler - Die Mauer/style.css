@@ -1,0 +1,159 @@
+/* Reset of all margins and paddings */
+:root{
+    --main-hue: 60;
+
+    --main-color: hsl(var(--main-hue),40%, 80%);
+    --light-main-color: hsl(var(--main-hue),40%, 80%);
+    --medium-dark-main-color: hsl(var(--main-hue), 40%, 31%);
+    --dark-main-color: hsl(var(--main-hue), 40%, 11%);
+}
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+/* Main styling */
+
+body
+{
+    width: 1200px;
+    height: 100vh;
+    margin: 0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Header styling */
+
+header
+{
+    background-color: var(--main-color);
+    height: 100px;
+}
+
+header img
+{
+    height: 100px;
+}
+
+/* General menu styling - applies to both menus (and footer for some properties) */
+
+nav ul
+{
+    list-style-type: none;
+    line-height: 40px;
+}
+
+nav ul a, footer a
+{
+    text-decoration: none;
+    color: white;
+    padding: 0 2em;
+}
+
+nav ul li:hover
+{
+    background-color: var(--light-main-color);
+}
+
+/* Top navigation styling (and some also apply for footer) */
+
+nav.top, footer
+{
+    height: 40px;
+    background-color: var(--dark-main-color);
+    color: white;
+}
+
+nav.top ul li
+{
+    display: inline-block;
+}
+
+/* Side navigation styling */
+
+nav.side
+{
+    float: left;
+    height: 100%;
+    width: 15%;
+    background-color: var(--light-main-color);
+}
+
+nav.side ul
+{
+    background-color: var(--medium-dark-main-color);
+}
+
+nav.side ul li a
+{
+    display: block;
+}
+
+/* Footer styling */
+
+footer
+{
+    position: absolute;
+    bottom: 0;
+    width: 1200px;
+    text-align: center;
+    line-height: 40px;
+}
+
+/* Styling of content area */
+
+main
+{
+    /* 18% padding on left side to account for the sidebar nav that is 15% wide */
+    padding: 2em 2em 2em 18%; 
+}
+
+/* Section size and positioning */
+
+section
+{
+    width: 45%;
+    height: 100%;
+    font-size: small;
+}
+
+.left
+{
+    float: left;
+}
+
+.right
+{
+    float: right;
+}
+
+/* Article styling */
+
+article
+{
+    margin-bottom: 5em;
+}
+
+article img
+{
+    float:left;
+    margin-right: 1em;
+}
+
+h2
+{
+    color: #BBBFBA;
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+    border-bottom: 1px solid #bbbfba;
+}
+
+h3
+{
+    color: rgba(50, 54, 84, 0.9);
+    line-height: 14px;
+    padding-bottom: 2px;
+}
