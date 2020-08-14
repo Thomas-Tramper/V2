@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+h1{
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+}
+h4{
+    font-size: 18px;
+    font-weight: bold;
+}
+body
+{
+    max-width: 600;
+    margin: auto;
+}
+
+
+/* flexbox item */
+div div{
+    width: 100px;
+    padding: 10px;
+    color: #fff;
+    box-sizing: border-box;
+    font-size: 42px;
+}
+.child1{
+    background-color: red;
+}
+.child2{
+    background-color: green;
+}
+.child3{
+    background-color: blue;
+}
+.child4{
+    background-color: orange;
+}
+
+
+/* flex contatiner */
+div{
+    background-color: #ccc;
+    display: flex;
+    max-width: 600;
+}
+.parent1{
+    justify-content: flex-start;
+}
+.parent2{
+    justify-content: flex-end;
+}
+.parent3{
+    justify-content: center;
+}
+.parent4{
+    justify-content: space-between;
+}
+.parent5{
+    justify-content: space-around;
+}
+.parent6{
+    align-items: flex-start;
+    height: 100px;
+}
+.parent7{
+    align-items: flex-end;
+    height: 100px;
+}
