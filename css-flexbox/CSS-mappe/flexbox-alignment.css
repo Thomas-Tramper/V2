@@ -42,7 +42,7 @@ div div{
 
 
 /* flex contatiner */
-div{
+main>div{
     background-color: #ccc;
     display: flex;
     max-width: 600;
@@ -64,9 +64,11 @@ div{
 }
 .parent6{
     align-items: flex-start;
-    height: 100px;
 }
 .parent7{
     align-items: flex-end;
+    
+}
+.align-items-height{
     height: 100px;
 }
