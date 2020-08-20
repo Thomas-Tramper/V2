@@ -1,0 +1,101 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+body{
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-rows: 1fr 1fr 3fr 3fr 2fr 2fr 2fr;
+    grid-template-areas: 
+    "Header"
+    "Menu"
+    "Hero"
+    "Main"
+    "Banner"
+    "Extra"
+    "Image";
+}
+.Header{
+    grid-area: Header;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkblue;
+}
+.Menu{
+    grid-area: Menu;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightcoral;
+}
+.Hero{
+    grid-area: Hero;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: steelblue;
+}
+.Main{
+    grid-area: Main;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkslategray;
+}
+.Banner{
+    grid-area: Banner;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: goldenrod;
+}
+.Extra{
+    grid-area: Extra;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: mediumseagreen;
+}
+.Image{
+    grid-area: Image;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: mediumturquoise;
+}
+
+
+/* Tablet udgaver */
+@media only screen and (min-width: 500px){
+    body{
+        grid-template-rows: 1fr 3fr 3fr 2fr 2fr;
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-areas:
+        "Header Header Header"
+        "Hero Hero Hero"
+        "Menu Main Main"
+        "Menu Banner Banner"
+        "Menu Extra Image"
+    }
+}
+
+
+
+/* pc udgaver */
+@media only screen and (min-width: 1000px){
+    body{
+        grid-template-rows: 1fr 4fr 2fr 2fr 2fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+        "Header Menu Menu Menu"
+        "Hero Hero Hero Hero"
+        "Main Main . Image"
+        "Main Main . Extra"
+        "Banner Banner Banner Banner"
+    }
+}
