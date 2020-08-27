@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    color: hsl(209, 10%, 100%);
+}
+header,footer{
+    background-color:hsl(209, 50%, 30%);
+    height: 10%;
+}
+main{
+    background-color:hsl(209, 20%, 80%);
+    height: 80%;
+}
+main>h2{
+    animation: Main_text 2s;
+}
+
+
+img,input{
+    top: 15px;
+    left: 15px;
+    height: 50px;
+    width: 50px;
+}
+img{
+    z-index: 3;
+    position: absolute;
+    display: block;
+}
+input{
+    display: block;
+    cursor: pointer;
+    z-index: 4;
+    position: absolute;
+    opacity: 0;
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    opacity: 0.9;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    background-color: hsl(209, 30%, 60%);
+    transform: translateX(-100%);
+}
+li{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    color: hsl(209, 10%, 100%);
+    text-decoration: none;
+    font-size: 1.5rem;
+    display: block;
+}
+.checkboxMenu:checked~ ul{
+    transform: translateX(0%);
+}
+.checkboxMenu~ .openMenu{
+    display: block;
+}
+.checkboxMenu~ .closeMenu{
+    display: none;
+}
+.checkboxMenu:checked~ .openMenu{
+    display: none;
+}
+.checkboxMenu:checked~ .closeMenu{
+    display: block;
+}
+@keyframes Main_text{
+    0%{transform: scale(0,1);}
+    60%{transform: scale(1,2);}
+    100%{transform: scale(1);}
+
+}
+
+/* hmf stå for Header main footer */
+.hmf{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
