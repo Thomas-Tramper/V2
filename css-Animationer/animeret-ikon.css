@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    position: relative;
+    float:right;
+    top: 10px;
+    right: 10px;
+}
+input{
+    position: absolute;
+    width: 40px;
+    height: 28px;
+    z-index: 6;
+    opacity: 0;
+}
+input:checked ~ .div1{
+    transform: translateY(11px) rotate(33deg) scaleX(1.15);
+}
+input:checked ~ .div2{
+    display: none;
+}
+input:checked ~ .div3{
+    transform:translateY(-11px) rotate(-33deg) scaleX(1.15);
+}
+
+.div1{
+    top: 0px;
+}
+.div2{
+    top: 11px;
+}
+.div3{
+    top: 22px;
+}
+
+div{
+    z-index: 3;
+    position: absolute;
+    width: 40px;
+    height: 6px;
+    border-radius: 5px;
+    background-color: black;
+}
