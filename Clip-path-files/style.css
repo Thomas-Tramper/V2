@@ -1,0 +1,311 @@
+:root{
+    --main-color: hsl(227, 22%, 71%);
+    --second-color: hsl(222, 30%, 40%);
+}
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+body{
+    display: -ms-grid;
+    display: grid;
+    min-height: 100vh;
+    height: auto;
+    -ms-grid-rows: 1fr 10fr 1fr;
+    grid-template-rows: 1fr 10fr 1fr;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+        grid-template-areas: 
+    "Header"
+    "Main"
+    "Footer";
+}
+header,footer{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+header{
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: Header;
+    background-color: var(--second-color);
+}
+main{
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+    grid-area: Main;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-rows: 1fr;
+    grid-template-rows: 1fr;
+    -ms-grid-columns: 300px 300px 300px 300px;
+    grid-template-columns: 300px 300px 300px 300px;
+        grid-template-areas: 
+    "Camera Videocamera Microphone Lense";
+    padding-top: 5%;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    background-color: var(--main-color);
+}
+main p{
+    z-index: 10;
+    text-align: center;
+    margin-top: 420px;
+    height: 20px;
+    color: var(--second-color);
+}
+img{
+    width: 300px;
+    height: 424px;
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 85%,0% 85%);
+            clip-path: polygon(0% 0%, 100% 0%, 100% 85%,0% 85%);
+}
+footer{
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+    grid-area: Footer;
+    background-color: var(--second-color);
+}
+.Camera-text{
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: Camera;
+    -webkit-transform:scale(0);
+        -ms-transform:scale(0);
+            transform:scale(0);
+    opacity: 0;
+}
+.Camera{
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: Camera;
+}
+
+.Videocamera-text{
+    -ms-grid-row: 1;
+    -ms-grid-column: 2;
+    grid-area: Videocamera;
+    -webkit-transform:scale(0);
+        -ms-transform:scale(0);
+            transform:scale(0);
+    opacity: 0;
+}
+.Videocamera{
+    -ms-grid-row: 1;
+    -ms-grid-column: 2;
+    grid-area: Videocamera;
+}
+
+.Microphone-text{
+    -ms-grid-row: 1;
+    -ms-grid-column: 3;
+    grid-area: Microphone;
+    -webkit-transform:scale(0);
+        -ms-transform:scale(0);
+            transform:scale(0);
+    opacity: 0;
+}
+.Microphone{
+    -ms-grid-row: 1;
+    -ms-grid-column: 3;
+    grid-area: Microphone;
+}
+.Lense-text{
+    
+    -ms-grid-row: 1;
+    -ms-grid-column: 4;
+    grid-area: Lense;
+    -webkit-transform:scale(0);
+        -ms-transform:scale(0);
+            transform:scale(0);
+    opacity: 0;
+}
+.Lense{
+    -ms-grid-row: 1;
+    -ms-grid-column: 4;
+    grid-area: Lense;
+}
+
+@media only screen and (min-width: 1500px){
+    .Camera:hover ~ .Camera-text{
+        -webkit-transition: 0.888s;
+        -o-transition: 0.888s;
+        transition: 0.888s;
+        -webkit-transform:scale(1);
+            -ms-transform:scale(1);
+                transform:scale(1);
+        opacity: 1;
+    }
+    .Camera:hover{
+        -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 40% 85%,50% 100% ,60% 85%,0% 85%);
+                clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 40% 85%,50% 100% ,60% 85%,0% 85%);
+    }
+    .Videocamera:hover{
+        -webkit-clip-path: circle(40% at 50% 50%);
+                clip-path: circle(40% at 50% 50%);
+    }
+    .Videocamera:hover ~ .Videocamera-text{
+        -webkit-transition: 0.888s;
+        -o-transition: 0.888s;
+        transition: 0.888s;
+        -webkit-transform:scale(1);
+            -ms-transform:scale(1);
+                transform:scale(1);
+        opacity: 1;
+    }
+    .Microphone:hover{
+        -webkit-clip-path: inset(10% 10% 20% 10% round 5%);
+                clip-path: inset(10% 10% 20% 10% round 5%);
+    }
+    .Microphone:hover ~ .Microphone-text{
+        -webkit-transition: 0.888s;
+        -o-transition: 0.888s;
+        transition: 0.888s;
+        -webkit-transform:scale(1);
+            -ms-transform:scale(1);
+                transform:scale(1);
+        opacity: 1;
+    }
+    .Lense:hover
+    {
+        -webkit-clip-path: polygon(0% 0%, 80% 0%,100% 45%,85% 85%,100% 85%,0% 85%,20% 45%);
+                clip-path: polygon(0% 0%, 80% 0%,100% 45%,85% 85%,100% 85%,0% 85%,20% 45%);
+    }
+    .Lense:hover ~ .Lense-text{
+        -webkit-transition: 0.888s;
+        -o-transition: 0.888s;
+        transition: 0.888s;
+        -webkit-transform:scale(1);
+            -ms-transform:scale(1);
+                transform:scale(1);
+        opacity: 1;
+    }
+}
+@media only screen and (max-width: 1500px) {
+    /* i denne Main ændrer det grid til tabel */
+    Main{
+        -ms-grid-rows: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        -ms-grid-columns: 300px 300px;
+        grid-template-columns: 300px 300px;
+            grid-template-areas: 
+        "Camera Videocamera"
+        "Microphone Lense";
+    }
+    /*  */
+    main p{
+        margin-top: 320px;
+        background-color: #ffffffb3;
+    }
+    /* fix teksten til mobil/tabel */
+    .Camera-text{
+        -webkit-transform:scale(1);
+            -ms-transform:scale(1);
+                transform:scale(1);
+        opacity: 1;
+    }
+    .Videocamera-text{
+        -webkit-transform:scale(1);
+            -ms-transform:scale(1);
+                transform:scale(1);
+        opacity: 1;
+    }
+    .Microphone-text{
+        -webkit-transform:scale(1);
+            -ms-transform:scale(1);
+                transform:scale(1);
+        opacity: 1;
+    }
+    .Lense-text{
+        -webkit-transform:scale(1);
+            -ms-transform:scale(1);
+                transform:scale(1);
+        opacity: 1;
+    }
+    Main > .Camera-text{
+        -ms-grid-row: 1;
+        -ms-grid-column: 1;
+    }
+    Main > .Camera{
+        -ms-grid-row: 1;
+        -ms-grid-column: 1;
+    }
+    Main > .Videocamera-text{
+        -ms-grid-row: 1;
+        -ms-grid-column: 2;
+    }
+    Main > .Videocamera{
+        -ms-grid-row: 1;
+        -ms-grid-column: 2;
+    }
+    Main > .Microphone-text{
+        -ms-grid-row: 2;
+        -ms-grid-column: 1;
+    }
+    Main > .Microphone{
+        -ms-grid-row: 2;
+        -ms-grid-column: 1;
+    }
+    Main > .Lense-text{
+        -ms-grid-row: 2;
+        -ms-grid-column: 2;
+    }
+    Main > .Lense{
+        -ms-grid-row: 2;
+        -ms-grid-column: 2;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    /* i denne Main ændrer det grid til mobil */
+    Main{
+        -ms-grid-rows: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        -ms-grid-columns: 300px;
+        grid-template-columns: 300px;
+            grid-template-areas: 
+        "Camera"
+        "Videocamera"
+        "Microphone"
+        "Lense";
+    }
+    Main > .Camera-text{
+        -ms-grid-row: 1;
+        -ms-grid-column: 1;
+    }
+    Main > .Camera{
+        -ms-grid-row: 1;
+        -ms-grid-column: 1;
+    }
+    Main > .Videocamera-text{
+        -ms-grid-row: 2;
+        -ms-grid-column: 1;
+    }
+    Main > .Videocamera{
+        -ms-grid-row: 2;
+        -ms-grid-column: 1;
+    }
+    Main > .Microphone-text{
+        -ms-grid-row: 3;
+        -ms-grid-column: 1;
+    }
+    Main > .Microphone{
+        -ms-grid-row: 3;
+        -ms-grid-column: 1;
+    }
+    Main > .Lense-text{
+        -ms-grid-row: 4;
+        -ms-grid-column: 1;
+    }
+    Main > .Lense{
+        -ms-grid-row: 4;
+        -ms-grid-column: 1;
+    }
+}
