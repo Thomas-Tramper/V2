@@ -1,0 +1,12 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+div{
+    height: 300px;
+    width: 300px;
+    background-color: blue;
+}
+.yellow{
+    background-color: yellow;
+}

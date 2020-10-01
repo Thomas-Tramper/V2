@@ -1,0 +1,13 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+div{
+    height: 300px;
+    width: 500px;
+    background-color: red;
+    opacity: 0;
+}
+.Show{
+    opacity: 1;
+}
