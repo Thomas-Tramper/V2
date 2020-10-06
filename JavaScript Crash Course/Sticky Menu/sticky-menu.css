@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+main{
+    height: 5000vh;
+}
+.menu{ 
+    background-color: green; 
+    color: white;
+}
+    
+.menu ul { 
+    display: flex;  
+}
+    
+.menu li { padding:
+    
+    10px 20px;
+    
+}
+.sticky { 
+    position: fixed;
+    top: 0; 
+    width: 100%; 
+}
+
