@@ -6,7 +6,7 @@ nav{
     position: relative;
     float:right;
     top: 10px;
-    right: 10px;
+    right: 40px;
 }
 input{
     position: absolute;
@@ -17,22 +17,29 @@ input{
 }
 input:checked ~ .div1{
     transform: translateY(11px) rotate(33deg) scaleX(1.15);
+    transition: linear 0.5s;
 }
 input:checked ~ .div2{
-    display: none;
+    /* display: none; */
+    /* opacity: 0; */
+    transform: scale(0);
 }
 input:checked ~ .div3{
     transform:translateY(-11px) rotate(-33deg) scaleX(1.15);
+    transition: linear 0.5s;
 }
 
 .div1{
     top: 0px;
+    transition: linear 0.5s;
 }
 .div2{
     top: 11px;
+    transition: linear 0.7s;
 }
 .div3{
     top: 22px;
+    transition: linear 0.5s;
 }
 
 div{
@@ -42,4 +49,5 @@ div{
     height: 6px;
     border-radius: 5px;
     background-color: black;
+    
 }
