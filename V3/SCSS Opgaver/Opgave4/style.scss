@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');// tekst
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');//overskrifter
+
+@mixin imagegrid ($columns , $margin) {
+    :nth-child(n){
+        margin: 0px $margin $margin 0px ;
+        width: (100% - (($columns - 1)* $margin))/$columns;
+    }
+    :nth-child(#{$columns}n){
+        margin-right: 0px ;
+    }
+}
+
+$font-main: 'Ubuntu', sans-serif;
+$font-headings: 'PT Sans Narrow', sans-serif;
+
+$color-bg: hsl(40, 43%, 82%);
+$coror-heading: hsl(220, 43% ,30%);
+
+body{
+    background-color: $color-bg;
+    font-family:$font-headings;
+    padding: 1rem;
+    h1{
+        font-family: $font-main;
+        color: $coror-heading;
+        padding-bottom: 2rem;
+    }   
+}
+.imagegrid{
+    @include imagegrid(3,1%);
+    
+    
+
+    .item{
+        float: left;
+        img{
+            border-radius: 15px;
+            width: 100%;
+        }
+    }
+    
+} 
+@media screen and (min-width: 600px) {
+    .imagegrid{
+        @include imagegrid(7,1%);
+  }
+}
+
