@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+$blue: hsl(202,74%,64%);
+
+@mixin box($width,$bgcolor){
+    width: $width;
+    height: $width;
+    background-color: $bgcolor;
+}
+@mixin imagegrid ($columns,$margin){
+    &:nth-child(n){
+        margin: 0px $margin $margin 0px ;
+    }
+    &:nth-child(#{$columns}n){
+        margin-right: 0px ;
+    }
+}
+@function fancyColor($blue, $count){ 
+    @return darken($blue ,($count * 5%)) ;
+}
+
+@function calculateWidth($columns,$margin){
+    @return (100% - (($columns - 1)* $margin))/$columns;
+}
+
+@for $i from 1 through 9 {
+    .kasse-#{$i}{
+        $temp-color:fancyColor($blue ,$i);
+        $temp-width:calculateWidth(3,3%);
+        @include box($temp-width, $temp-color);
+        @include imagegrid(3,3%);
+        float: left;
+        @media screen and (min-width: 600px) {
+            $temp-width:calculateWidth(5,2%);
+            @include imagegrid(5,2%);
+            @include box($temp-width, $temp-color);
+        }
+    }
+}
+.kasser{
+    height: 100vh;
+    margin: 5px;
+    
+}
