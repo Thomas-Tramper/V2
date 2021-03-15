@@ -1,0 +1,168 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  width: 80%;
+  margin: 0px auto;
+  background-color: #faf4eb;
+}
+
+nav.navTop {
+  z-index: 10;
+  width: inherit;
+  height: 50px;
+  position: fixed;
+}
+
+nav.navTop div {
+  background-color: #8b2323;
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#shopping-cart {
+  margin-right: 0px;
+}
+
+ul.ulTop {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0px 10px;
+}
+
+ul.ulTop li:last-child {
+  margin-right: 0px;
+}
+
+ul.ulTop li {
+  display: inline-block;
+  margin-right: 30px;
+  color: white;
+}
+
+ul.ulTop li a {
+  color: white;
+  text-decoration: none;
+}
+
+ul.ulTop li a img {
+  opacity: 0.5;
+  max-width: 40px;
+  width: 80%;
+}
+
+nav.navSide {
+  top: 50px;
+  width: 10%;
+  padding: 10px;
+  display: inline-block;
+  position: fixed;
+  background-color: white;
+  height: 100vh;
+}
+
+nav.navSide a {
+  color: black;
+  text-decoration: none;
+}
+
+nav.navSide a img {
+  width: 100%;
+  padding-bottom: 25px;
+}
+
+nav.navSide ul {
+  font-size: 1.5rem;
+  list-style-type: none;
+  font-weight: 500;
+}
+
+nav.navSide ul li {
+  padding: 25px 0px;
+}
+
+div.content {
+  position: relative;
+  top: 50px;
+  padding-left: 15%;
+}
+
+div.content Header img {
+  width: 100%;
+}
+
+div.content main h1 {
+  padding: 30px 0px;
+}
+
+div.content main p {
+  padding: 20px  00px;
+}
+
+div.products {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+div.products div.product {
+  margin: 2% 0px;
+  width: 32%;
+  background-color: white;
+}
+
+div.products div.product h3 {
+  padding: 2%;
+}
+
+div.products div.product img {
+  width: 100%;
+}
+
+div.products div.product p {
+  padding: 5% 2%;
+}
+
+div.products div.product button {
+  background-color: #8b2323;
+  width: 100%;
+  height: 40px;
+}
+
+div.products div.product button a {
+  color: white;
+  text-decoration: none;
+}
+
+footer {
+  width: 100%;
+}
+/*# sourceMappingURL=style.css.map */

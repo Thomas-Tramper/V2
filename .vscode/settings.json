@@ -1,0 +1,30 @@
+{
+    "cSpell.words": [
+        "bagcolor"
+    ],
+    "cSpell.ignoreWords": [
+        "bgcolor",
+        "coror",
+        "coror heading",
+        "heading",
+        "imagegrid",
+        "kasse",
+        "kasser",
+        "ramcolor",
+        "textcolor"
+    ],
+  
+    
+
+    "cSpell.diagnosticLevel": "Hint",
+    "workbench.colorCustomizations": {​​​​​​​​
+    
+    // will change the color of three dots to red
+    "editorHint.foreground": "#000000",
+
+    // will underline the entire word with dots in your chosen color
+    "editorHint.border": "#000000"
+      }​​​​​​​​
+
+
+}

@@ -1,0 +1,155 @@
+$NavColor: hsl(0, 60%, 34%);
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body
+{
+    width: 80%;
+    margin: 0px auto;
+    background-color: #faf4eb;
+}
+nav.navTop
+{
+    z-index: 10;
+    width: inherit;
+    height: 50px;
+    position: fixed;
+    div
+    {
+        background-color: $NavColor;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+}
+#shopping-cart
+{
+    margin-right: 0px; 
+}
+ul.ulTop
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+    li:last-child
+    {
+        margin-right: 0px;
+    }
+    li 
+    {
+        display: inline-block;
+        margin-right: 30px;
+        color: white;
+        a 
+        {
+            color: white;
+            text-decoration: none;
+            img 
+            {
+                opacity: 0.5;
+                max-width: 40px;
+                width: 80%;
+            }   
+        }
+    }
+}
+nav.navSide
+{
+    top: 50px;
+    width: 10%;
+    padding: 10px;
+    display: inline-block;
+    position: fixed;
+    background-color: white;
+    height: 100vh;
+    a
+    {
+        color: black;
+        text-decoration: none;
+        img 
+        {
+            width: 100%;
+            padding-bottom: 25px;
+        }
+    }
+    ul 
+        {
+            font-size: 1.5rem;
+            list-style-type: none;
+            font-weight:500;
+            li{
+                padding: 25px 0px;
+            }
+        }
+}
+div.content
+{
+    position: relative;
+    top: 50px;
+    padding-left: 15%;
+    Header
+    {
+        img
+        {
+            width: 100%;
+        }
+    }
+    main
+    {
+        h1 
+        {
+            padding: 30px 0px;
+        }
+        p 
+        {
+            padding: 20px  00px;
+        }
+
+    }
+}
+
+div.products
+    {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        div.product
+        {
+            margin: 2% 0px;
+            width: 32%;
+            background-color: white;
+            h3 
+            {
+                padding: 2%;
+            }
+            img 
+            {
+                width: 100%;
+            }
+            p 
+            {
+                padding: 5% 2%;
+            }
+            button 
+            {
+                background-color: $NavColor;
+                width: 100%;
+                height: 40px;
+                a
+                {
+                    color: white;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+footer
+{
+    width: 100%;
+}

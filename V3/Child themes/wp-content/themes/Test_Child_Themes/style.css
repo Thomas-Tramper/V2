@@ -1,0 +1,44 @@
+/*
+ Theme Name:   Test Child Themes
+ Theme URI:    
+ Description:  my frist first Child Theme
+ Author:       Thomas
+ Author URI:   
+ Template:     twentynineteen
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twentynineteenchild
+*/
+.site-description {  
+    color: #0008ff;
+    font-style: oblique;
+}
+.image-filters-enabled .category-recipes .post-thumbnail:before,
+.image-filters-enabled .category-recipes .post-thumbnail:after 
+{
+    display: none;
+}
+.image-filters-enabled .category-recipes .post-thumbnail .post-thumbnail-inner
+{
+    filter: none;
+}
+.wp-block-quote
+{
+    background-color: #aaaaaa;
+    border-left-width: 10px !important;
+}
+.wp-block-separator
+{
+    max-width: none !important;
+    width: 100%;
+}
+
+/* Author bio */
+.author-bio .author-heading .avatar
+{
+    height: auto;
+    width: auto;
+    display: inline-block;
+}

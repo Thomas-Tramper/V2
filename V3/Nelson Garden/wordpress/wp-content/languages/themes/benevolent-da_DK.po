@@ -1,0 +1,708 @@
+# Translation of Themes - Benevolent in Danish
+# This file is distributed under the same license as the Themes - Benevolent package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-12-28 12:23:39+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: da_DK\n"
+"Project-Id-Version: Themes - Benevolent\n"
+
+#. Theme Name of the theme
+msgid "Benevolent"
+msgstr "Benevolent"
+
+#: 404.php:16 404.php:18
+msgid "Error 404"
+msgstr "Fejl 404"
+
+#: 404.php:19
+msgid "Page Not Found"
+msgstr "Siden er Ikke Fundet"
+
+#: 404.php:20
+msgid "This page could not be found on the server."
+msgstr "Denne side kunne ikke blive fundet."
+
+#: 404.php:21
+msgid "Return to Homepage"
+msgstr "Vend Tilbage til Hjemmesiden"
+
+#: index.php:46 archive.php:40 search.php:42
+msgid "Page"
+msgstr "Side"
+
+#: comments.php:28
+msgid "Comments"
+msgstr "Kommentarer"
+
+#: comments.php:43
+msgid "Comment navigation"
+msgstr "Kommentar Navigering"
+
+#: comments.php:46
+msgid "Older Comments"
+msgstr "Tidligere Kommentarer"
+
+#: comments.php:47
+msgid "Newer Comments"
+msgstr "Nyere Kommentarer"
+
+#: comments.php:60
+msgid "Comments are closed."
+msgstr "Kommentarer er lukket. "
+
+#: inc/extras.php:676
+msgid "Name*"
+msgstr "Navn*"
+
+#: inc/extras.php:677
+msgid "Email*"
+msgstr "Email*"
+
+#: inc/extras.php:684
+msgid "Website"
+msgstr "Hjemmeside"
+
+#: inc/extras.php:697
+msgid "Comment"
+msgstr "Kommentar"
+
+#: functions.php:52
+msgid "Primary"
+msgstr "Primær"
+
+#: functions.php:53
+msgid "Secondary"
+msgstr "Sekundær"
+
+#: functions.php:148
+msgid "Right Sidebar"
+msgstr "Højre Sidemenu"
+
+#: functions.php:158
+msgid "Footer One"
+msgstr "Fodnote En"
+
+#: functions.php:168
+msgid "Footer Two"
+msgstr "Fodnote To"
+
+#: functions.php:178
+msgid "Footer Three"
+msgstr "Fodnote Tre"
+
+#: functions.php:188
+msgid "Footer Four"
+msgstr "Fodnote Fire"
+
+#: header.php:106 header.php:164
+msgid "Menu"
+msgstr "Menu"
+
+#: header.php:57 header.php:157 inc/customizer.php:76
+msgid "Donate Now"
+msgstr "Doner Nu"
+
+#: inc/customizer.php:18
+msgid "Choose Post"
+msgstr "Vælg Indlæg"
+
+#: inc/customizer.php:34
+msgid "Choose Category"
+msgstr "Vælg Kategori"
+
+#: inc/customizer.php:46
+msgid "Default Settings"
+msgstr "Grundindstillinger"
+
+#: inc/customizer.php:47
+msgid "Default section provided by WordPress customizer."
+msgstr "Grundindstillinger delen gjort tilgængelig via WordPress customizer."
+
+#: inc/customizer.php:66
+msgid "Donate Button"
+msgstr "Donations Knappen"
+
+#: inc/customizer.php:84 inc/customizer.php:1385
+msgid "Button Text"
+msgstr "Button Tekst"
+
+#: inc/customizer.php:102 inc/customizer.php:1403
+msgid "Button Url"
+msgstr "Button Url"
+
+#: inc/customizer.php:113
+msgid "Slider Settings"
+msgstr "Slider Indstillinger"
+
+#: inc/customizer.php:131
+msgid "Enable Home Page Slider"
+msgstr "Aktiver Hjemmeside Slider"
+
+#: inc/customizer.php:149
+msgid "Enable Slider Auto Transition"
+msgstr "Aktiver Auto Slider Overgang"
+
+#: inc/customizer.php:167
+msgid "Enable Slider Loop"
+msgstr "Aktiver Slider Loop"
+
+#: inc/customizer.php:185
+msgid "Enable Slider Pager"
+msgstr "Aktiver Slider Pager"
+
+#: inc/customizer.php:203
+msgid "Enable Slider Caption"
+msgstr "Aktiver Slider Overskrift"
+
+#: inc/customizer.php:221
+msgid "Choose Slider Animation"
+msgstr "Vælg Slider Animation"
+
+#: inc/customizer.php:225
+msgid "Fade"
+msgstr "Falme"
+
+#: inc/customizer.php:226
+msgid "Slide"
+msgstr "Slide"
+
+#: inc/customizer.php:243
+msgid "Slider Speed"
+msgstr "Slider Hastighed"
+
+#: inc/customizer.php:261
+msgid "Animation Speed"
+msgstr "Animations Hastighed"
+
+#: inc/extras.php:362 inc/customizer.php:271
+msgid "Learn More"
+msgstr "Lær Mere"
+
+#: inc/customizer.php:279
+msgid "Readmore Text"
+msgstr "Læs Mere Tekst"
+
+#: inc/customizer.php:297
+msgid "Choose Slider Category"
+msgstr "Vælg Slider Kategori"
+
+#: inc/customizer.php:311
+msgid "Home Page Settings"
+msgstr "Hjemmeside Indstillinger"
+
+#: inc/customizer.php:312
+msgid "Customize Home Page Settings"
+msgstr "Personliggør Hjemmeside Instillinger"
+
+#: inc/customizer.php:320
+msgid "Intro Section"
+msgstr "Intro Sektion"
+
+#: inc/customizer.php:338
+msgid "Enable Intro Section"
+msgstr "Aktiver Intro Sektion"
+
+#: inc/customizer.php:356
+msgid "Intro Section Title"
+msgstr "Intro Sektions Titel"
+
+#: inc/customizer.php:374
+msgid "Intro Section Content"
+msgstr "Intro Sektions Indhold"
+
+#: inc/customizer.php:410
+msgid "Intro One Title"
+msgstr "Intro En Titel"
+
+#: inc/customizer.php:428
+msgid "Intro One Link Label"
+msgstr "Intro En Link Label"
+
+#: inc/customizer.php:446
+msgid "Intro One Url"
+msgstr "Intro En Url"
+
+#: inc/customizer.php:466
+msgid "Upload a Logo One"
+msgstr "Upload et Logo Et"
+
+#: inc/customizer.php:488
+msgid "Upload a Image One"
+msgstr "Upload et Billede Et"
+
+#: inc/customizer.php:508
+msgid "Intro Two Title"
+msgstr "Intro To Titel"
+
+#: inc/customizer.php:526
+msgid "Intro Two Link Label"
+msgstr "Intro To Link Label"
+
+#: inc/customizer.php:544
+msgid "Intro Two Url"
+msgstr "Intro To Url"
+
+#: inc/customizer.php:564
+msgid "Upload a Logo Two"
+msgstr "Upload et Logo To "
+
+#: inc/customizer.php:586
+msgid "Upload a Image Two"
+msgstr "Upload et Billede To"
+
+#: inc/customizer.php:606
+msgid "Intro Three Title"
+msgstr "Intro Tre Titel"
+
+#: inc/customizer.php:624
+msgid "Intro Three Link Label"
+msgstr "Intro Tre Link Label"
+
+#: inc/customizer.php:642
+msgid "Intro Three Url"
+msgstr "Intro Tre Url"
+
+#: inc/customizer.php:662
+msgid "Upload a Logo Three"
+msgstr "Upload et Logo Tre"
+
+#: inc/customizer.php:684
+msgid "Upload a Image Three"
+msgstr "Upload et Billede Tre"
+
+#: inc/customizer.php:697
+msgid "Community Section"
+msgstr "Community Delen"
+
+#: inc/customizer.php:715
+msgid "Enable Community Section"
+msgstr "Aktiver Community Delen"
+
+#: inc/customizer.php:733
+msgid "Community Section Title"
+msgstr "Community Del Titlen "
+
+#: inc/customizer.php:751
+msgid "Select Post One"
+msgstr "Vælg Indlæg Et"
+
+#: inc/customizer.php:770
+msgid "Select Post Two"
+msgstr "Vælg Indlæg To"
+
+#: inc/customizer.php:789
+msgid "Select Post Three"
+msgstr "Vælg Indlæg Tre"
+
+#: inc/customizer.php:808
+msgid "Select Post Four"
+msgstr "Vælg Indlæg Fire"
+
+#: inc/customizer.php:820
+msgid "Stat Counter Section"
+msgstr "Stat Counter Delen"
+
+#: inc/customizer.php:838
+msgid "Enable Stat Counter Section"
+msgstr "Aktiver Stat Counter Delen"
+
+#: inc/customizer.php:856
+msgid "First Stat Counter Number"
+msgstr "Første Stat Counter Nummer"
+
+#: inc/customizer.php:874
+msgid "First Stat Counter Title"
+msgstr "Første Stat Counter Titlen"
+
+#: inc/customizer.php:892
+msgid "Second Stat Counter Number"
+msgstr "Anden Stat Counter Nummer"
+
+#: inc/customizer.php:910
+msgid "Second Stat Counter Title"
+msgstr "Anden Stat Counter Titlen"
+
+#: inc/customizer.php:928
+msgid "Third Stat Counter Number"
+msgstr "Tredje Stat Counter Nummer"
+
+#: inc/customizer.php:946
+msgid "Third Stat Counter Title"
+msgstr "Tredje Stat Counter Titlen"
+
+#: inc/customizer.php:964
+msgid "Fourth Stat Counter Number"
+msgstr "Counter"
+
+#: inc/customizer.php:982
+msgid "Fourth Stat Counter Title"
+msgstr "Fjerde Stat Counter Titel "
+
+#: inc/customizer.php:993
+msgid "Blog Section"
+msgstr "Blog Delen"
+
+#: inc/customizer.php:1011
+msgid "Enable Blog Section"
+msgstr "Aktiver Blog Delen "
+
+#: inc/customizer.php:1029
+msgid "Show Blog Date"
+msgstr "Vis Blog Dato"
+
+#: inc/customizer.php:1047
+msgid "Blog Section Title"
+msgstr "Vis Blog Delens Titel"
+
+#: inc/customizer.php:1065
+msgid "Blog Section Content"
+msgstr "Blog Delens Indhold"
+
+#: sections/section-blog.php:11 inc/widget-featured-post.php:41
+#: inc/widget-featured-post.php:99 inc/widget-featured-post.php:146
+#: inc/customizer.php:1075 template-parts/content.php:66
+msgid "Read More"
+msgstr "Læs Mere"
+
+#: inc/customizer.php:1083
+msgid "Blog Section Read More Text"
+msgstr "Blog Delen Læs Mere Tekst"
+
+#: inc/customizer.php:1094
+msgid "Sponsor Section"
+msgstr "Sponsor Delen"
+
+#: inc/customizer.php:1112
+msgid "Enable Sponsor Section"
+msgstr "Aktiver Sponsor Delen"
+
+#: inc/customizer.php:1130
+msgid "Sponsor Section Title"
+msgstr "Sponsor Delens Titel"
+
+#: inc/customizer.php:1150
+msgid "Upload Logo One"
+msgstr "Upload Logo Et"
+
+#: inc/customizer.php:1168
+msgid "Logo One Url"
+msgstr "Logo Et Url"
+
+#: inc/customizer.php:1188
+msgid "Upload Logo Two"
+msgstr "Upload Logo To"
+
+#: inc/customizer.php:1206
+msgid "Logo Two Url"
+msgstr "Logo To Url"
+
+#: inc/customizer.php:1226
+msgid "Upload Logo Three"
+msgstr "Upload Logo Tre"
+
+#: inc/customizer.php:1244
+msgid "Logo Three Url"
+msgstr "Logo Tre Url"
+
+#: inc/customizer.php:1264
+msgid "Upload Logo Four"
+msgstr "Upload Logo Fire"
+
+#: inc/customizer.php:1282
+msgid "Logo Four Url"
+msgstr "Logo Fire Url"
+
+#: inc/customizer.php:1302
+msgid "Upload Logo Five"
+msgstr "Upload Logo Fem"
+
+#: inc/customizer.php:1320
+msgid "Logo Five Url"
+msgstr "Logo Fem Url"
+
+#: inc/customizer.php:1331
+msgid "Promotional Section"
+msgstr "Promoverings Delen"
+
+#: inc/customizer.php:1349
+msgid "Enable Promotional Section"
+msgstr "Aktiver Promoverings Delen"
+
+#: inc/customizer.php:1367
+msgid "Promotional Section Title"
+msgstr "Promoveringsdelens Titel "
+
+#: inc/customizer.php:1423
+msgid "Background Image"
+msgstr "Baggrunds Billede"
+
+#: inc/customizer.php:1436
+msgid "Breadcrumb Settings"
+msgstr "Breadcrumb Indstillinger"
+
+#: inc/customizer.php:1454
+msgid "Enable Breadcrumb"
+msgstr "Aktiver Breadcrumb"
+
+#: inc/customizer.php:1472
+msgid "Show current"
+msgstr "Vis Midlertidig"
+
+#: inc/extras.php:70 inc/customizer.php:1482
+msgid "Home"
+msgstr "Hjem"
+
+#: inc/customizer.php:1490
+msgid "Breadcrumb Home Text"
+msgstr "Breadcrump Hjemme Tekst"
+
+#: inc/extras.php:69 inc/customizer.php:1500
+msgid ">"
+msgstr ">"
+
+#: inc/customizer.php:1508
+msgid "Breadcrumb Separator"
+msgstr "Breadcrumb Separator"
+
+#: inc/customizer.php:1519
+msgid "Social Settings"
+msgstr "Sociale Indstillinger"
+
+#: inc/customizer.php:1520
+msgid "Leave blank if you do not want to show the social link."
+msgstr "Efterlad siden blank hvis du ikke vil offentliggøre det sociale link. "
+
+#: inc/customizer.php:1538
+msgid "Enable Social Icons in Header"
+msgstr "Aktiver Sociale Ikoner i Headeren "
+
+#: inc/extras.php:247 inc/widget-social-links.php:56
+#: inc/widget-social-links.php:102 inc/customizer.php:1556
+msgid "Facebook"
+msgstr "Facebook"
+
+#: inc/extras.php:249 inc/widget-social-links.php:58
+#: inc/widget-social-links.php:107 inc/customizer.php:1574
+msgid "Twitter"
+msgstr "Twitter"
+
+#: inc/extras.php:253 inc/widget-social-links.php:117 inc/customizer.php:1610
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: inc/extras.php:255 inc/widget-social-links.php:64
+#: inc/widget-social-links.php:122 inc/customizer.php:1628
+msgid "Google Plus"
+msgstr "Google Plus"
+
+#: inc/extras.php:257 inc/widget-social-links.php:66
+#: inc/widget-social-links.php:127 inc/customizer.php:1646
+msgid "Instagram"
+msgstr "Instagram"
+
+#: inc/extras.php:259 inc/widget-social-links.php:68
+#: inc/widget-social-links.php:132 inc/customizer.php:1664
+msgid "YouTube"
+msgstr "YouTube"
+
+#: inc/customizer.php:1675
+msgid "Custom CSS Settings"
+msgstr "Bruger CSS Indstillinger"
+
+#: inc/customizer.php:1693
+msgid "Custom Css"
+msgstr "Bruger CSS"
+
+#: inc/customizer.php:1695
+msgid "Put your custom CSS"
+msgstr "Anbring dit bruger CSS"
+
+#: inc/extras.php:293
+msgid "Your comment is awaiting moderation."
+msgstr "Din kommentar afventer moderation. "
+
+#: inc/extras.php:299
+msgid "(Edit)"
+msgstr "(Ret)"
+
+#: inc/extras.php:542
+msgid "&copy; "
+msgstr "&kopi; "
+
+#: inc/extras.php:552
+msgid "Powered by %s"
+msgstr "Powered by %s"
+
+#: inc/extras.php:552
+msgid "https://wordpress.org/"
+msgstr "https://wordpress.org/"
+
+#: inc/metabox.php:13
+msgid "Sidebar Layout"
+msgstr "Sidemenu Layout"
+
+#: inc/metabox.php:24
+msgid "Right sidebar (default)"
+msgstr "Højre Sidemenu (default) "
+
+#: inc/metabox.php:29
+msgid "No sidebar"
+msgstr "Ingen sidemenu"
+
+#: inc/metabox.php:39
+msgid "Choose Sidebar Template"
+msgstr "Vælg Sidemenu Skabelon"
+
+#: inc/template-tags.php:30
+msgid "Leave a comment"
+msgstr "Efterlad en kommentar"
+
+#: inc/template-tags.php:30
+msgid "1 Comment"
+msgstr "1 Kommentar"
+
+#: inc/template-tags.php:30
+msgid "% Comments"
+msgstr "% Kommentarer"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:44 inc/template-tags.php:50
+msgid ", "
+msgstr ", "
+
+#: inc/template-tags.php:46
+msgid "Posted in %1$s"
+msgstr "Indlagt i %1$s"
+
+#: inc/template-tags.php:52
+msgid "Tagged %1$s"
+msgstr "Tagget %1$s"
+
+#. translators: %s: Name of current post
+#: inc/template-tags.php:59 template-parts/content-page.php:46
+msgid "Edit %s"
+msgstr "Ret %s"
+
+#: inc/widget-featured-post.php:26
+msgid "RARA: Featured Post"
+msgstr "RARA: Lignende Indlæg"
+
+#: inc/widget-featured-post.php:27
+msgid "A Featured Post Widget"
+msgstr "Et lignende Indlægs Widget"
+
+#: inc/widget-featured-post.php:87
+msgid "--choose--"
+msgstr "--vælg--"
+
+#: inc/widget-featured-post.php:106
+msgid "Posts"
+msgstr "Indlæg"
+
+#: inc/widget-featured-post.php:116
+msgid "Read More Text"
+msgstr "Læs Mere Tekst "
+
+#: inc/widget-recent-post.php:123 inc/widget-popular-post.php:123
+#: inc/widget-featured-post.php:126
+msgid "Show Post Thumbnail"
+msgstr "Vist Indlægs Thumbnail"
+
+#: inc/widget-popular-post.php:26
+msgid "RARA: Popular Post"
+msgstr "RARA: Populære Indlæg"
+
+#: inc/widget-popular-post.php:27
+msgid "A Popular Post Widget"
+msgstr "Et Populært Indlægs Widget"
+
+#: inc/widget-popular-post.php:41 inc/widget-popular-post.php:104
+#: inc/widget-popular-post.php:147
+msgid "Popular Posts"
+msgstr "Populære Indlæg"
+
+#: inc/widget-social-links.php:97 inc/widget-recent-post.php:112
+#: inc/widget-popular-post.php:112
+msgid "Title"
+msgstr "Titel"
+
+#: inc/widget-recent-post.php:117 inc/widget-popular-post.php:117
+msgid "Number of Posts"
+msgstr "Antal af Indlæg"
+
+#: inc/widget-recent-post.php:128 inc/widget-popular-post.php:128
+msgid "Show Post Date"
+msgstr "Vist Indlægs Dato"
+
+#: inc/widget-recent-post.php:27
+msgid "RARA: Recent Post"
+msgstr "RARA: Nylige Indlæg"
+
+#: inc/widget-recent-post.php:28
+msgid "A Recent Post Widget"
+msgstr "Et Nyligt Indlægs Widget"
+
+#: inc/widget-recent-post.php:42 inc/widget-recent-post.php:104
+#: inc/widget-recent-post.php:147
+msgid "Recent Posts"
+msgstr "Nylige Indlæg"
+
+#: inc/widget-social-links.php:26
+msgid "RARA: Social Links"
+msgstr "RARA: Social Links"
+
+#: inc/widget-social-links.php:27
+msgid "A Social Links Widget"
+msgstr "Et Socialt Links Widget"
+
+#: inc/widget-social-links.php:41 inc/widget-social-links.php:85
+#: inc/widget-social-links.php:152
+msgid "Subscribe & Follow"
+msgstr "Abonnere og Følg"
+
+#: inc/extras.php:251 inc/widget-social-links.php:60
+#: inc/widget-social-links.php:112 inc/customizer.php:1592
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: inc/widget-social-links.php:62
+msgid "Linkedin"
+msgstr "Linkedin"
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "Intet er Fundet"
+
+#: template-parts/content-none.php:21
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Er du klar til at offentliggøre dit første indlæg? <a href=\"%1$s\">Start her</a>."
+
+#: template-parts/content-none.php:25
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Beklager, men intet matchede dine søgeord. Forsøg venligst igen med andre søgeord. "
+
+#: template-parts/content-none.php:31
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Det lader til at vi ikke kan finde det du leder efter. Søg eventuelt yderligere. "
+
+#: template-parts/content.php:58 template-parts/content-page.php:35
+msgid "Pages:"
+msgstr "Sider: "
+
+#. translators: %s: Name of current post.
+#: template-parts/content.php:42 template-parts/content.php:51
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Fortsæt med at læse %s <span class=\"meta-nav\">&rarr;</span>"
+
+#. Template Name of the theme
+msgid "Home Page"
+msgstr "Hjemmeside"
+
+#. Author of the theme
+msgid "Rara Theme"
+msgstr "Rara Theme"

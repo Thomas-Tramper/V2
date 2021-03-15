@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SSA//Simply Schedule Appointments 1.4.1.2//EN
+CALSCALE:GREGORIAN
+X-ORIGINAL-URL:http://localhost/wordpress/
+X-WR-CALDESC:Aftaler fra nastasia-nails
+TRANSP:OPAQUE
+BEGIN:VEVENT
+UID:ssa_1customer
+DTSTAMP:20210127T085956Z
+LOCATION:
+DESCRIPTION:\nCancel/Reschedule link: \nhttp://localhost/wordpress/appointments/change/1a4ba6cdfa9148adbbc821131aaf6ecd1 \n
+URL;VALUE=URI:
+SUMMARY:Shellak + delvis manicure eller neglelak + fuld manicure (nastasia-nails)
+DTSTART:20210203T130000Z
+DTEND:20210203T150000Z
+END:VEVENT
+END:VCALENDAR

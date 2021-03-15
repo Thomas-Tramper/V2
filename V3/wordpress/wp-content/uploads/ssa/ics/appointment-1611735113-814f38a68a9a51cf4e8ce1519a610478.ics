@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SSA//Simply Schedule Appointments 1.4.1.2//EN
+CALSCALE:GREGORIAN
+X-ORIGINAL-URL:http://localhost/wordpress/
+X-WR-CALDESC:Appointments from nastasia-nails
+TRANSP:OPAQUE
+BEGIN:VEVENT
+UID:ssa_2customer
+DTSTAMP:20210127T081153Z
+LOCATION:
+DESCRIPTION:\nCancel/Reschedule link: \nhttp://localhost/wordpress/appointments/change/a9ee38ae088af3455411ecc24ff4e0742 \n
+URL;VALUE=URI:
+SUMMARY:Nastasia Nails (nastasia-nails)
+DTSTART:20210203T120000Z
+DTEND:20210203T130000Z
+END:VEVENT
+END:VCALENDAR

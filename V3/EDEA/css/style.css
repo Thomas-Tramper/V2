@@ -1,0 +1,398 @@
+@import url("https://fonts.googleapis.com/css?family=PT+Sans+Narrow|Ubuntu&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 80%;
+  margin: auto;
+  font-family: "PT Sans Narrow", Helvetica, Arial, Sans-serif;
+  background-color: #faf4eb;
+}
+
+.side {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100vh;
+  width: 190px;
+  position: fixed;
+  padding: 10px;
+  top: 50px;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.side img {
+  margin-bottom: 4vh;
+  width: 100%;
+}
+
+.side ul {
+  list-style-type: none;
+}
+
+.side ul li {
+  display: block;
+  padding: 2vh 0;
+}
+
+.side ul a {
+  font-size: 1.4rem;
+  text-decoration: none;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #2b1d1d;
+}
+
+.top {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#dd7878), to(#8b2323));
+  background-image: linear-gradient(#dd7878, #8b2323);
+  color: #faf4eb;
+  width: inherit;
+  height: 50px;
+  position: fixed;
+  z-index: 10;
+}
+
+.top ul {
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.top ul li {
+  display: inline-block;
+  padding: 0 0.5vw;
+  font-size: 1.2rem;
+}
+
+.top ul li:nth-child(4) {
+  margin-right: auto;
+}
+
+.top ul li a {
+  text-decoration: none;
+  color: #faf4eb;
+}
+
+.top ul li:last-child {
+  padding-left: 0;
+}
+
+.top ul img {
+  opacity: 0.5;
+  padding-top: 5px;
+  width: 2vw;
+}
+
+.top ul .carticon {
+  padding-right: 0.3vw;
+}
+
+.top ul .carticon img {
+  -webkit-transform: scale(0.8);
+          transform: scale(0.8);
+}
+
+.content, .aboutus {
+  margin-left: 220px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  top: 50px;
+}
+
+.content header img, .aboutus header img {
+  max-width: 100%;
+}
+
+.aboutus p {
+  margin: 1rem 0;
+}
+
+.aboutus ul {
+  list-style-position: inside;
+}
+
+.aboutus img {
+  margin: 3rem 0;
+  width: 100%;
+}
+
+main {
+  font-size: 1.3rem;
+  padding-bottom: 8vh;
+}
+
+main h1 {
+  font-family: "Ubuntu", Helvetica, Arial, Sans-serif;
+  color: #2b1d1d;
+  padding: 7vh 0 5vh 0;
+}
+
+.ShowProduct {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.ShowProduct p {
+  margin-bottom: 25px;
+}
+
+.ShowProduct .leftColumn {
+  width: 70%;
+  padding-right: 10px;
+}
+
+.ShowProduct .leftColumn img {
+  width: 50%;
+}
+
+.ShowProduct .rightColumn {
+  padding-left: 10px;
+  border-left: 1px solid gray;
+  width: 30%;
+}
+
+.ShowProduct .rightColumn button {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#dd7878), to(#8b2323));
+  background-image: linear-gradient(#dd7878, #8b2323);
+}
+
+.ShowProduct .rightColumn button a {
+  height: 50%;
+  width: 50%;
+  color: white;
+}
+
+section {
+  margin-top: 4vh;
+}
+
+section h2 {
+  padding-bottom: 2vh;
+}
+
+section img {
+  width: 300px;
+}
+
+section .products {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+section .products article {
+  width: 32%;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+section .products article:nth-child(n) {
+  margin-right: 2%;
+  margin-bottom: 2%;
+}
+
+section .products article:nth-child(3n) {
+  margin-right: 0;
+}
+
+section .products article p {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 100%;
+          flex: 1 1 100%;
+}
+
+section .products article img {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+section .products article img, section .products article h3, section .products article p {
+  margin: 3%;
+}
+
+section .products h3 {
+  font-size: 1.8rem;
+}
+
+section .products button {
+  background: -webkit-gradient(linear, left top, left bottom, from(#dd7878), to(#8b2323));
+  background: linear-gradient(#dd7878, #8b2323);
+  padding: 1vw 0;
+  vertical-align: bottom;
+}
+
+section .products button a {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 100%;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 100%;
+          flex: 1 1 100%;
+  border-top: 1px solid #2b1d1d;
+  padding-top: 8vh;
+}
+
+footer div {
+  width: 32%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 1.2rem;
+}
+
+footer div:nth-child(n) {
+  margin-right: 2%;
+  margin-bottom: 2%;
+}
+
+footer div:nth-child(3n) {
+  margin-right: 0;
+}
+
+footer div .footerSoMe {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+footer div img {
+  opacity: 0.5;
+  padding: 5px 7px 0 0;
+  width: 2vw;
+}
+
+footer div:nth-child(3) {
+  background-color: rgba(255, 255, 255, 0.6);
+  padding-left: 0.5vw;
+}
+
+footer div a {
+  color: #2b1d1d;
+  text-decoration: none;
+}
+
+footer h3 {
+  height: 4vh;
+}
+
+footer form p {
+  height: 4vh;
+}
+
+form p {
+  line-height: 40px;
+}
+
+form label {
+  width: 30%;
+  display: inline-block;
+}
+
+form label.loginform {
+  width: 130px;
+}
+
+form input {
+  display: inline-block;
+  width: 60%;
+  height: 20px;
+  padding-left: 3px;
+}
+
+form .logininput {
+  width: 250px;
+}
+
+form .submitbtn {
+  width: 100px;
+  margin-left: 30%;
+  padding-left: 0;
+  height: 20px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+form .loginbtn {
+  margin-left: 0;
+}
+/*# sourceMappingURL=style.css.map */

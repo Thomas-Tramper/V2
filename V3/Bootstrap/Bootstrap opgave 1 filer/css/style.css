@@ -1,0 +1,12 @@
+header
+{
+    height: 50vh;
+    background: url(../images/background.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+header img, #service img
+{
+    width: 100px;
+    display: block;
+}

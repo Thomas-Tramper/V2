@@ -1,0 +1,171 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+header img {
+  width: 100vw;
+  height: 100%;
+}
+
+nav {
+  height: 20px;
+  background-color: #34a52a;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  height: 100%;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 0px 20px;
+  height: 70%;
+}
+
+footer {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  background-color: aqua;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+}
+
+footer section {
+  width: 33%;
+}
+
+section > form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+}
+
+section > form input {
+  margin: 5px;
+  padding: 5px;
+}
+
+.back {
+  top: 20px;
+  left: 20px;
+  position: absolute;
+  font-size: 50px;
+}
+
+.back a {
+  text-decoration: none;
+  color: indigo;
+}
+
+.loginStyle > form {
+  width: 50vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.loginStyle > form input {
+  width: 300px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.loginStyle > form label {
+  width: 300px;
+}
+
+.formHolder {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.newspaper {
+  margin-top: 150px;
+}
+
+.newspaper main {
+  display: block;
+  margin: 0px auto;
+  width: 800px;
+}
+
+.newspaper main h4 {
+  padding: 10px;
+  font-size: 2rem;
+}
+
+.newspaper main h5 {
+  font-size: 1.2rem;
+}
+
+.formStyleToInputAndFail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#described {
+  height: 100px;
+}
+
+.dark {
+  background-color: #bfbfbf;
+}
+
+.light {
+  background-color: #e6e6e6;
+}
+/*# sourceMappingURL=style.css.map */
